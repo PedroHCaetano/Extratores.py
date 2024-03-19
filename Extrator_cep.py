@@ -1,6 +1,6 @@
 endereco = "Rua Aimorés 21, Predio 2, Centro, Belo Horizonte, MG, 30140-073"
 
-import re #Regular expression == RegEx
+import re #Regular expression == RegEx  
 
 padrao = re.compile("[0-9]{5}[-]?[0-9]{3}")
 #? serve para colocar o [-] como opcional (pode ter ou não)
